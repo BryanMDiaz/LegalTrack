@@ -1,5 +1,7 @@
 import Navbar from '../../components/web/Navbar';
 import Hero from '../../components/web/Hero';
+import FirmOverview from '../../components/web/FirmOverview';
+import PracticeAreas from '../../components/web/PracticeAreas';
 
 const Home = () => {
   return (
@@ -7,6 +9,8 @@ const Home = () => {
       <Navbar />
       <main>
         <Hero />
+        <FirmOverview />
+        <PracticeAreas />
       </main>
     </div>
   );
